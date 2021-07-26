@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="nav_icon">
+        <a href="#" class="f-l"><i class="fa fa-facebook-official"></i></a>
+        <a href="#" class="f-l"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="f-l"><i class="fa fa-snapchat"></i></a>
+        <a href="#" class="f-l"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="f-l"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="f-l"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="f-r"><i class="fa fa-search"></i></a>
+    </div>
+    <div class="head-content" style="max-width: 1600px;">
+        <header class="pad-48 pad-cont text-center">
+            <h1 class="font_large"><b>JANE BLOGLIFE</b></h1>
+            <h6>Welcome to the blog of
+                <span class="tag">Jane's world</span>
+            </h6>
+        </header>
+        <header class="dis-head">
+            <img class="head-img" src="https://www.w3schools.com/w3images/jane.jpg" alt="" width="1600" height="1060">
+            <div class="title-left pad-12-24">
+                <h1>Jane's</h1>
+                <h1 class="jumbo"><b>FASHION BLOG</b></h1>
+                <h6>
+                    <button class="btn pad-12-24"
+                        onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button>
+                </h6>
+            </div>
+        </header>
+    </div>
+
+    <div class="main pad-8-16">
+        <div class="f-l l8">
+            <div class="blog-cont pad-12-24">
+                <div class="text-center">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title Description <span class="date">Dec 21,2001</span></h5>
+                </div>
+                <div class="justify">
+                    <img src="https://www.w3schools.com/w3images/girl_hat.jpg" class="pad-16" style="width: 100%;"
+                        alt="">
+                    <p><strong>More Hats! </strong>
+                        I am crazy about hats these days. Some text about this blog entry. Fashion fashion and mauris
+                        neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
+                        placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi
+                        non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum,
+                        porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco.</p>
+                    <p class="f-l">
+                        <button class="like-btn "><b><i class="fa fa-thumbs-up"></i> Like</b></button>
+                    </p>
+                    <p class="f-r">
+                        <button class="rep-btn" onclick="myfunction('rep')"><b>Replies &nbsp;</b>
+                            <span class="rep-tag">1</span></button>
+                    </p>
+                    <p class="clear"></p>
+
+                    <div id="rep" class="show">
+                        <hr>
+                        <div class="rep-img f-l">
+                            <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" style="width:90px;" alt="">
+                        </div>
+                        <div class="rep-rev f-l">
+                            <h4>George
+                                <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                            </h4>
+                            <p>Great Blog post! Following</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="blog-cont pad-12-24">
+                <div class="text-center">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title Description <span class="date">Sep 2,2011</span></h5>
+                </div>
+                <div class="justify">
+                    <img src="https://www.w3schools.com/w3images/man_hat.jpg" class="pad-16" style="width: 100%;"
+                        alt="">
+                    <p><strong>Hats! </strong>
+                        The trend this summer is hats for men!
+                    </p>
+                    <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                        convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim,
+                        ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent
+                        tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
+                        gravida diam non fringilla.</p>
+                    <p class="f-l">
+                        <button class="like-btn "><b><i class="fa fa-thumbs-up"></i> Like</b></button>
+                    </p>
+                    <p class="f-r">
+                        <button class="rep-btn" onclick="myfunction('rep2')"><b>Replies &nbsp;</b>
+                            <span class="rep-tag">2</span></button>
+                    </p>
+                    <p class="clear"></p>
+                    <div id="rep2" class="hide">
+                        <div class="replies">
+                            <hr>
+                            <div class="rep-img f-l">
+                                <img src="	https://www.w3schools.com/w3images/girl_train.jpg" style="width:90px;"
+                                    alt="">
+                            </div>
+                            <div class="rep-rev f-l">
+                                <h4>George
+                                    <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                                </h4>
+                                <p>Great Blog post! Following</p>
+                            </div>
+                        </div>
+                        <div class="replies">
+                            <hr>
+                            <div class="rep-img f-l" style="display: none;">
+                                <img src="	https://www.w3schools.com/w3images/girl.jpg" style="width:90px;" alt="">
+                            </div>
+                            <div class="rep-rev f-l">
+                                <h4>George
+                                    <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                                </h4>
+                                <p>Great Blog post! Following</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="blog-cont pad-12-24">
+                <div class="text-center">
+                    <h3>TITLE HEADING</h3>
+                    <h5>Title Description <span class="date">April 1,2013</span></h5>
+                </div>
+                <div class="justify">
+                    <img src="	https://www.w3schools.com/w3images/runway.jpg" class="pad-16" style="width: 100%;"
+                        alt="">
+                    <p><strong>Dont miss! </strong>
+                        The runway in New York City this weekend is gonna be legendary!
+                    </p>
+                    <p>Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae,
+                        convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim,
+                        ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent
+                        tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
+                        gravida diam non fringilla.</p>
+                    <p class="f-l">
+                        <button class="like-btn "><b><i class="fa fa-thumbs-up"></i> Like</b></button>
+                    </p>
+                    <p class="f-r">
+                        <button class="rep-btn" onclick="myfunction('rep3')"><b>Replies &nbsp;</b>
+                            <span class="rep-tag">3</span></button>
+                    </p>
+                    <p class="clear"></p>
+                    <div id="rep3" class="hide">
+                        <div class="replies">
+                            <hr>
+                            <div class="rep-img f-l">
+                                <img src="	https://www.w3schools.com/w3images/girl_mountain.jpg" style="width:90px;"
+                                    alt="">
+                            </div>
+                            <div class="rep-rev f-l">
+                                <h4>George
+                                    <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                                </h4>
+                                <p>Great Blog post! Following</p>
+                            </div>
+                        </div>
+                        <div class="replies">
+                            <hr>
+                            <div class="rep-img f-l">
+                                <img src="https://www.w3schools.com/w3images/boy.jpg" style="width:90px;" alt="">
+                            </div>
+                            <div class="rep-rev f-l">
+                                <h4>George
+                                    <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                                </h4>
+                                <p>Great Blog post! Following</p>
+                            </div>
+                        </div>
+                        <div class="replies" style="display: none;">
+                            <hr>
+                            <div class="rep-img f-l">
+                                <img src="https://www.w3schools.com/w3images/girl_hood.jpg" style="width:90px;" alt="">
+                            </div>
+                            <div class="rep-rev f-l">
+                                <h4>George
+                                    <span class="rev-date">May 3, 2015, 6:32 PM</span>
+                                </h4>
+                                <p>Great Blog post! Following</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="f-l l4">
+            <div class="m-16 white-bg">
+                <img src="	https://www.w3schools.com/w3images/avatar_girl2.jpg" style="width: 100%;" alt="">
+                <div class="abt-dt pad-cont">
+                    <h4>My Name</h4>
+                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
+                        interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Popular Posts</h4>
+                </div>
+                <ul class="white-bg">
+                    <li class="pad-16-16">
+                        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" class="pp-img f-l"
+                            style="width: 50px; margin-right: 16px;" alt="">
+                        <span style="font-size: 18px;">Denim</span>
+                        <br>
+                        <span>Sed mattic nunc</span>
+                    </li>
+                    <li class="pad-16-16">
+                        <img src="	https://www.w3schools.com/w3images/bandmember.jpg" class="pp-img f-l"
+                            style="width: 50px; margin-right: 16px;" alt="">
+                        <span style="font-size: 18px;">Sweaters</span>
+                        <br>
+                        <span>Sed mattic nunc</span>
+                    </li>
+                    <li class="pad-16-16">
+                        <img src="https://www.w3schools.com/w3images/workshop.jpg" class="pp-img f-l"
+                            style="width: 50px; margin-right: 16px;" alt="">
+                        <span style="font-size: 18px;">Jackets</span>
+                        <br>
+                        <span>Sed mattic nunc</span>
+                    </li>
+                    <li class="pad-16-16">
+                        <img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" class="pp-img f-l"
+                            style="width: 50px; margin-right: 16px;" alt="">
+                        <span style="font-size: 18px;">Denim</span>
+                        <br>
+                        <span>Sed mattic nunc</span>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Advertise</h4>
+                </div>
+                <div class="white-bg pad-cont">
+                    <div class="pad-cont ad" style="height: 200px;">
+                        <span class="adtitle">Your AD Here</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Tags</h4>
+                </div>
+                <div class="t-tag pad-cont">
+                    <p>
+                        <span class="black-tag">Fashion</span>
+                        <span class="white-tag">INDIA</span>
+                        <span class="white-tag">London</span>
+                        <span class="white-tag">Paris</span>
+                        <span class="white-tag">France</span>
+                        <span class="white-tag">chini</span>
+                        <span class="white-tag">Makana</span>
+                        <span class="white-tag">Caled</span>
+                        <span class="white-tag">Salad</span>
+                        <span class="white-tag">Fafda</span>
+                        <span class="white-tag">Jalebi</span>
+                        <span class="white-tag">Uk</span>
+                        <span class="white-tag">us</span>
+                        <span class="white-tag">Afgan</span>
+                        <span class="white-tag">INDIA</span>
+                        <span class="white-tag">London</span>
+                        <span class="white-tag">INDIA</span>
+                        <span class="white-tag">London</span>
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Inspiration</h4>
+                </div>
+                <div class="white-bg" style="padding:0 8px; overflow: hidden;">
+                    <div class="img">
+                        <p>
+                            <img src="	https://www.w3schools.com/w3images/jeans.jpg" style="width: 100%;" alt="">
+                        </p>
+                        <p>
+                            <img src="	https://www.w3schools.com/w3images/team1.jpg" style="width: 100%;" alt="">
+                        </p>
+                    </div>
+                    <div class="img">
+                        <p>
+                            <img src="	https://www.w3schools.com/w3images/jeans.jpg" style="width: 100%;" alt="">
+                        </p>
+                        <p>
+                            <img src="	https://www.w3schools.com/w3images/team1.jpg" style="width: 100%;" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Follow Me</h4>
+                </div>
+                <div class="pad-8-16 fa-font-i">
+                    <i class="fa fa-facebook-official ihover"></i>
+                    <i class="fa fa-instagram ihover"></i>
+                    <i class="fa fa-snapchat ihover"></i>
+                    <i class="fa fa-pinterest-p ihover"></i>
+                    <i class="fa fa-twitter ihover"></i>
+                    <i class="fa fa-linkedin ihover"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="m-16 white-bg">
+                <div class="p-p pad-8-16">
+                    <h4>Subscribe</h4>
+                </div>
+                <div class="pad-cont">
+                    <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+                    <p>
+                        <input type="text" style="width: 100%;" class="sub-inp" placeholder="Enter e-mail">
+                    </p>
+                    <p>
+                        <button type="button" class="sub-btn pad-8-16"
+                            onclick="document.getElementById('subscribe').style.display='block'">Subscribe</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot" style="padding: 32px;">
+        <a href="#" class="foot-btn pad-12-22">
+            <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+        </a>
+        <p>
+            Powered by
+            <a href="#">w3.com</a>
+        </p>
+    </footer>
+
+    <div id="subscribe" class="sub-hidden" style="display: none;">
+        <div class="sub-cont">
+            <div class="white-bg pad-cont">
+                <i class="fa fa-remove sub-i f-r"
+                    onclick="document.getElementById('subscribe').style.display='none'"></i>
+                <h2 style="letter-spacing: 4px;">SUBSCRIBE</h2>
+                <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+                <p><input class="subs-btn" type="text" placeholder="Enter e-mail"></p>
+                <button type="button" class="re-btn"
+                    onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("mybtn").click();
+        function myfunction(id) {
+            var x = document.getElementById(id)
+            if (x.className.indexOf("show") == -1) {
+                x.className = x.className.replace("hide", "show")
+            }
+            else {
+                x.className = x.className.replace("show", "hide")
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>

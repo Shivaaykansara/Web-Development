@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+body{
+    font-family: "Open Sans";
+    background-color: #f1f1f1;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.like-btn{
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.m-16{
+    margin: 16px;
+    overflow: hidden;
+}
+
+.justify{
+    text-align: justify;
+}
+
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+}
+
+.fa-font-i{
+    font-size: 24px;
+}
+
+.font_large{
+    font-size: 48px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h6{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h5{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h1, h2, h3, h5, h6, h4{
+    font-family: "Oswald";
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+li{
+    list-style-type: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.jumbo{
+    font-size: 64px;
+}
+
+.f-l{
+    float: left;
+    
+}
+
+.f-r{
+    float: right;
+}
+
+.pad-16-16{
+    padding: 16px 16px;
+}
+
+.pad-8-16{
+    padding: 8px 16px;
+}
+
+.pad-cont{
+    padding: 0.1em 16px;
+}
+
+.pad-48{
+    padding: 48px 0;
+}
+
+.pad-12-24{
+    padding: 12px 24px;
+}
+
+.pad-12-22{
+    padding: 12px 22px;
+}
+
+.pad-16{
+    padding: 16px 0px;
+}
+
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+button{
+    font: inherit;
+}
+/* Navbar section */
+
+.nav_icon{
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav_icon a{
+    color: white;
+    padding: 8px 16px;
+    display: block;
+    font-size: inherit;
+    
+}
+
+.nav_icon a:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+/* Header section */
+.tag{
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+}
+
+/* img header */
+
+.dis-head{
+    position: relative;
+}
+.head-img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+.title-left{
+    color: white;
+    letter-spacing: 4px;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.btn{
+    font-size: 18px;
+    opacity: .60;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #f1f1f1;
+    opacity: 1;
+}
+/* main section */
+
+.main{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    
+}
+
+.blog-cont{
+    margin: 16px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.date{
+    opacity: .60;
+}
+
+/* reply section */
+
+.replies{
+    display: block;
+    overflow: hidden;
+}
+
+.like-btn:hover{
+    background-color: #ccc;
+}
+
+.rep-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.rep-img{
+    width: 16.66666%;
+}
+
+.rep-rev{
+    width: 83.33333%;
+}
+
+.rep-btn{
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: black;
+    color: white;
+}
+
+.rep-tag{
+    background-color: white;
+    padding: 0 8px;
+    color: black;
+}
+
+
+.rev-date{
+    opacity: .60;
+    font-size: 15px;
+}
+
+/* Footer section */
+
+.foot{
+    background-color: #616161;
+    color: white;
+    
+}
+
+.foot-btn{
+    color: white;
+    background-color: black;
+    margin-bottom: 16px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.foot-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+footer a{
+    text-decoration: none;
+    border: none;
+}
+
+footer p a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+footer a i{
+    margin-right: 16px;
+}
+
+/* About section */
+
+.white-bg{
+    background-color: #fff;
+}
+
+.abt-dt{
+    color: white;
+    background-color: #000;
+}
+
+/* popular-posts */
+
+.p-p{
+    background-color: black;
+    color: white;
+}
+
+/*Ad Section*/
+
+.ad{
+    background-color: #f1f1f1;
+    margin: 16px 0;
+    position: relative;
+}
+
+.adtitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Tag section */
+
+.black-tag{
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    display: inline-block;
+}
+
+.white-tag{
+    background-color: #f1f1f1;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+}
+
+/* Inspiration section */
+
+.img{
+    padding: 0 8px;
+    width: 49.9999%;
+    float: left;
+}
+
+/* Follow section */
+
+.ihover{
+    opacity: 1;
+}
+
+.ihover:hover{
+    opacity: .5;
+}
+
+/* Subscribe section */
+
+.sub-inp{
+    padding: 8px;
+    display: block;
+    border: 1px solid #ccc;
+    font: inherit;
+}
+
+.sub-btn{
+    color: #fff;
+    background-color: #f44336;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+.sub-i{
+    font-size: 24px !important;
+}
+
+.sub-hidden{
+    position: fixed;
+    z-index: 3;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: opac .8s ease 0s 1 normal none;
+    animation-play-state: running;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.sub-cont{
+    width: 600px;
+    margin: auto;
+    padding: 32px;
+    background-color: #fff;
+}
+
+.subs-btn{
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: normal;
+}
+
+.re-btn{
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px 24px;
+    margin-bottom: 16px;
+    width: 100%;
+    display: block;
+    border: none;
+}
+
+.re-btn:hover{
+    background-color: #f1f1f1;
+    color: black;
+}
+
+@media (min-width:993px) {
+    .l8{
+        width:66.66666%;
+    } 
+    .l4{
+        width: 33.33333%;
+    }
+    .sub-cont{
+        width: 900px;
+    }
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+@media (max-width:600px){
+    .jumbo, .nav_icon{
+        display: none !important;
+    }
+}
+
+@keyframes opac {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#rep{
+    overflow: hidden;
+}
